@@ -1,1 +1,88 @@
-C:/Users/Administrator/AppData/Roaming/VSCodium/User/settings.json
+{
+  /* ──────────────── 🖋️ Appearance ──────────────── */
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.8,
+  "editor.renderLineHighlight": "gutter",
+  "editor.scrollbar.vertical": "hidden",
+  // "editor.rulers": [80, 120],
+  // "editor.minimap.enabled": false,
+  "explorer.compactFolders": false,
+  "symbols.hidesExplorerArrows": false,
+  "window.autoDetectColorScheme": true,
+  // "window.titleBarStyle": "native",
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.iconTheme": "sweet-vscode-icons",
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.colorTheme": "Min Dark",
+  "workbench.preferredDarkColorTheme": "Min Dark",
+  "workbench.preferredLightColorTheme": "Min Light",
+  // "workbench.activityBar.location": "hidden",
+  // "workbench.statusBar.visible": false,
+  // "workbench.layoutControl.enabled": false,
+
+  /* ──────────────── ♿ Accessibility ──────────────── */
+  "editor.accessibilitySupport": "off",
+
+  /* ──────────────── ✏️ Editor Behavior ──────────────── */
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.parameterHints.enabled": false,
+  "editor.semanticHighlighting.enabled": false,
+  "editor.stickyScroll.enabled": false,
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "editor.maxTokenizationLineLength": 9007199254740991,
+
+  /* ──────────────── 📂 Explorer ──────────────── */
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.fileNesting.enabled": true,
+
+  /* ──────────────── 💻 Terminal ──────────────── */
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.gpuAcceleration": "on",
+  "terminal.integrated.showExitAlert": false,
+
+  /* ──────────────── 🔒 Security ──────────────── */
+  "security.promptForLocalFileProtocolHandling": false,
+  "security.workspace.trust.enabled": false,
+  "security.workspace.trust.untrustedFiles": "newWindow",
+
+  /* ──────────────── 🧰 Workbench ──────────────── */
+  "update.mode": "start",
+  "update.showReleaseNotes": false,
+  "workbench.editor.labelFormat": "short",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.tree.enableStickyScroll": false,
+  // "window.commandCenter": false,
+
+  /* ──────────────────────────────────────────────── From-Software Modding ──────────────────────────────────────────────── */
+
+  "files.associations": {
+    "*.me3": "toml"
+  },
+
+  /* ──────────────────────────────────────────────── Extensions ──────────────────────────────────────────────── */
+  /* ──────────────── 🧱 Blockman Configs ──────────────── */
+  "diffEditor.wordWrap": "off",
+  "editor.guides.bracketPairs": false,
+  "editor.guides.indentation": false,
+  "editor.inlayHints.enabled": "off",
+  "editor.wordWrap": "off",
+  "workbench.colorCustomizations": {
+    "editor.lineHighlightBackground": "#1073cf2d",
+    "editor.lineHighlightBorder": "#9fced11f",
+  },
+  /* ──────────────── 📁Better Folding+ Configs ──────────────── */
+  "betterFolding.foldClosingBrackets": true,
+  "betterFolding.foldClosingTags": true,
+  "betterFolding.showFoldedBodyLinesCount": false,
+  "betterFolding.showFunctionParameters": true,
+  "betterFolding.chainFoldingRanges": false,
+  "betterFolding.showObjectPreviews": false,
+  /* ──────────────── Others ──────────────── */
+    "git.openRepositoryInParentFolders": "always",
+}
