@@ -1,6 +1,6 @@
 {
   /* ──────────────── 🖋️ Appearance ──────────────── */
-  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontFamily": "'JetBrains Mono'"/*, 'Everson Mono'"*/,
   "editor.fontLigatures": true,
   "editor.fontSize": 14,
   "editor.lineHeight": 1.8,
@@ -10,7 +10,6 @@
   // "editor.minimap.enabled": false,
   "explorer.compactFolders": false,
   "symbols.hidesExplorerArrows": false,
-  "window.autoDetectColorScheme": true,
   // "window.titleBarStyle": "native",
   "workbench.editor.empty.hint": "hidden",
   "workbench.iconTheme": "sweet-vscode-icons",
@@ -34,6 +33,7 @@
   "editor.suggestSelection": "first",
   "editor.tabSize": 2,
   "editor.maxTokenizationLineLength": 9007199254740991,
+  "editor.foldingStrategy": "auto",
 
   /* ──────────────── 📂 Explorer ──────────────── */
   "explorer.confirmDelete": false,
@@ -62,7 +62,8 @@
   /* ──────────────────────────────────────────────── From-Software Modding ──────────────────────────────────────────────── */
 
   "files.associations": {
-    "*.me3": "toml"
+    "*.me3": "toml",
+    "*.hks": "lua"
   },
 
   /* ──────────────────────────────────────────────── Extensions ──────────────────────────────────────────────── */
@@ -70,7 +71,7 @@
   "diffEditor.wordWrap": "off",
   "editor.guides.bracketPairs": false,
   "editor.guides.indentation": false,
-  "editor.inlayHints.enabled": "off",
+  "editor.inlayHints.enabled": "on",
   "editor.wordWrap": "off",
   "workbench.colorCustomizations": {
     "editor.lineHighlightBackground": "#1073cf2d",
@@ -79,10 +80,30 @@
   /* ──────────────── 📁Better Folding+ Configs ──────────────── */
   "betterFolding.foldClosingBrackets": true,
   "betterFolding.foldClosingTags": true,
-  "betterFolding.showFoldedBodyLinesCount": false,
   "betterFolding.showFunctionParameters": true,
-  "betterFolding.chainFoldingRanges": false,
-  "betterFolding.showObjectPreviews": false,
   /* ──────────────── Others ──────────────── */
     "git.openRepositoryInParentFolders": "always",
+    "betterFolding.showOnlyRegionsDescriptions": true,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "biome.suggestInstallingGlobally": false,
+
+
+
+
+
+
+
+
+
+
+  /* ──────────────── Others ──────────────── */
+    //"rust-analyzer.check.command": "clippy",
+    "[rust]": {
+      "editor.defaultFormatter": "rust-lang.rust-analyzer",
+    },
+    "rust-analyzer.diagnostics.disabled": [
+      "unlinked-file"
+    ],
+    "terminal.integrated.enableMultiLinePasteWarning": "never"
+
 }
